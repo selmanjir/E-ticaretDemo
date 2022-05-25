@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "types": ["node", "express"],
+    "module": "commonjs",
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "noUnusedLocals": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "lib": ["es2016"],
+    "outDir": "e-ticaret-demo-release"
+  },
+  "exclude": [
+    "./node_modules",
+  ],
+  "typeRoots": [
+    "/.node_modules/@types"
+  ]
+}
